@@ -21,7 +21,7 @@ require("react-toastify/dist/ReactToastify.css");
 
 const isDevelopment = window.location.hostname === "localhost";
 const RPC_TOKEN = process.env.REACT_APP_RPC_TOKEN || "";
-const REACT_APP_RPC_URL="https://staging-rpc.dev.eclipsenetwork.xyz";
+const const RPC_URL = process.env.REACT_APP_RPC_URL || "";
 
 function Root() {
   return (
